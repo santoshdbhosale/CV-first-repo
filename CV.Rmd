@@ -3,6 +3,7 @@ name: Santosh
 surname: Bhosale
 position: "Postdoctoral Researcher"
 address: "University of Southern Denmark, Odense, Denmark"
+profilepic: "./img/SDB.png"
 email: "santoshb@bmb.sdu.dk"
 linkedin: santoshdbhosale
 github: santoshdbhosale

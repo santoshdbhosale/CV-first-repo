@@ -9,7 +9,7 @@ linkedin: santoshdbhosale
 github: santoshdbhosale
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
-aboutme: "I have been working with LC-MS/MS based proteomics research, including discovery and validation of serum biomarkers in clinical samples from type 1 diabetes and atherosclerosis studies. Collaboration with clinicians, mass spectrometry experts and bioinformaticians."
+aboutme: "I do mass spectrometry based proteomics research, including discovery and validation of serum biomarkers in clinical samples from type 1 diabetes and atherosclerosis studies. Collaborations with clinicians, mass spectrometry experts and bioinformaticians."
 docname: CV
 output: vitae::awesomecv
 ---
@@ -24,7 +24,7 @@ library(magrittr)
 library(here)
 library(readr)
 
-source(file = here("r","data.r"))
+source(file = here("r","data_withPatent.r"))
 
 ```
 

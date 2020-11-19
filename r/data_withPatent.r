@@ -33,10 +33,10 @@ work <- tribble(
   "Postdoctoral Researcher ", " University of Turku - Turku Bioscience ", "November", 2018, "December", 2019, "Turku - Finland", "Measured and analyzed data to compare the effects of nutrition supplementation in infancy and the correlation between the proteomes of the child and mother",
   "Postdoctoral Researcher ", " University of Turku - Turku Bioscience ", "November", 2018, "December", 2019, "Turku - Finland","Analyzed temporal serum proteomes of celiac disease (CD) developing children",
   "Postdoctoral Researcher ", " University of Turku - Turku Bioscience ", "November", 2018, "December", 2019, "Turku - Finland"," Conducted the interactomics measurements and data analysis for serveral trasnscription factors of T cells",
-  "Project Assistant", "National Chemical Laboratory", "September", 2009, "December", 2011, "Pune - India", "Analysis of glycated proteins, oligonulceotides, small molecules, and animal experiments (e.g. Albino mice) using protein extraction methods, protein digestion and cleanup, SDS-PAGE, and mass spectrometry (MS)",
-  "Lecturer","JSPMs JSCOPR affiliated to University of Pune","July", 2008, "September", 2009, "Pune - India", "Taught theory and practicals for pharmaceutical biochemistry and pharmaceutical analysis to the bachelor of pharmacy students",
-  "Lecturer","JSPMs JSCOPR affiliated to University of Pune","July", 2008, "September", 2009, "Pune - India"," Supervised undergraduate pharmacy students",
-  "Lecturer","JSPMs JSCOPR affiliated to University of Pune","July", 2008, "September", 2009, "Pune - India"," Graded course assignments and examinations"
+  "Project Assistant", "National Chemical Laboratory", "November", 2009, "December", 2011, "Pune - India", "Analysis of glycated proteins, oligonulceotides, small molecules, and animal experiments (e.g. Albino mice) using protein extraction methods, protein digestion and cleanup, SDS-PAGE, and mass spectrometry (MS)",
+  "Lecturer","JSPMs JSCOPR affiliated to University of Pune","July", 2008, "November", 2009, "Pune - India", "Taught theory and practicals for pharmaceutical biochemistry and pharmaceutical analysis to the bachelor of pharmacy students",
+  "Lecturer","JSPMs JSCOPR affiliated to University of Pune","July", 2008, "November", 2009, "Pune - India"," Supervised undergraduate pharmacy students",
+  "Lecturer","JSPMs JSCOPR affiliated to University of Pune","July", 2008, "November", 2009, "Pune - India"," Graded course assignments and examinations"
 )
 
 ref <- tribble(

@@ -43,8 +43,7 @@ ref <- tribble(
   ~Name, ~Title, ~Contact,
   'Riitta Lahesmaa, M.D., Ph. D.',  "Academy Professor, Turku Bioscience, P.O. Box 123 Biocity, FIN-20520, Turku, Finland", "rilahes@utu.fi",
   'Robert Moulder, Ph.D.',  "Senior Scientist,  Turku Bioscience, P.O. Box 123 Biocity, FIN-20520, Turku, Finland", "robmou@utu.fi",
-  'David R. Goodlett, Ph.D.',  "Professor of Pharmaceutical Sciences, University of Maryland School of Pharmacy, 20 North Pine Street, Room N631
-   Baltimore, MD 21201", "david.goodlett@gmail.com",
+  'David R. Goodlett, Ph.D.',  "Professor of Biochemistry & Microbiology and Director Genome BC Proteome Centre at University of Victoria, Victoria, British Columbia, Canada", "david.goodlett@gmail.com",
   'Mahesh J. Kulkarni, Ph.D.',  "Scientist, Biochemical Sciences Division, CSIR-National Chemical Laboratory, Pune, India", "mj.kulkarni@ncl.res.in"
 )
 

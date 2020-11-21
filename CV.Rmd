@@ -5,11 +5,12 @@ position: "Postdoctoral Researcher"
 address: "University of Southern Denmark, Odense, Denmark"
 profilepic: "./img/SDB.png"
 email: "santoshb@bmb.sdu.dk"
+www: santoshdbhosale.github.io
 linkedin: santoshdbhosale
 github: santoshdbhosale
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 990000
-aboutme: "I have been working with LC-MS/MS based proteomics research, including discovery and validation of serum biomarkers in clinical samples from type 1 diabetes and atherosclerosis studies. Collaboration with clinicians, mass spectrometry experts and bioinformaticians."
+aboutme: "I do mass spectrometry based proteomics research, including discovery and validation of serum biomarkers in clinical samples. Collaborations with clinicians, mass spectrometry experts and bioinformaticians."
 docname: CV
 output: vitae::awesomecv
 ---

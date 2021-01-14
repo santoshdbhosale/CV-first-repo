@@ -23,7 +23,7 @@ edu <- tribble(
   " University of Turku (Turku Bioscience)", 2012, 2018, "PhD", "Turku - Finland","Developed targeted SRM-LC-MS methods to monitor multiple protein targets",
   " University of Turku (Turku Bioscience)", 2012, 2018, "PhD", "Turku - Finland","Cellular proteomic analyses of Th17 and iTreg cells from mouse and human",
   " University of Turku (Turku Bioscience)", 2012, 2018, "PhD", "Turku - Finland","Teaching experience in proteomics data analysis (presented at a national meeting, 2017)",
-  " Rajasthan University of Health Sciences (Lachoo Memorial College of Science & Technology)", 2005, 2008, "Master of Pharmacy (Pharmaceutical Chemistry)", "India",NA,
+  " Rajasthan University of Health Sciences (Lachoo Memorial College of Science & Technology)", 2005, 2008, "Master of Pharmacy (Pharmaceutical Chemistry)", "Jodhpur - India",NA,
   " University of Pune (Sitabai Thite College of Pharmacy)", 2001, 2005, "Bachelor of Pharmacy", "Shirur - Pune",NA
 )
 

@@ -3,7 +3,7 @@ skills <- tribble(
   "Wet lab", " Cell culture work, animal handling and clinical samples, Cell & tissue sample lysis, SDS-PAGE electrophoresis (1D, 2D) and western blotting ",
   "Proteomics", "Trypsin digestion, immunodepletion of serum &/or plasma samples, label free quantification, isobaric labeling, off-line high pH fractionation, PTMs enrichment and immunoprecipitation experiments",
   "Mass spectrometry", "Operation and troubleshooting of a range of instruments LTQ Orbitrap Velos Pro, Q Exactive series, Orbitrap Exploris 480 Mass Spectrometer, TSQ Vantage (all from Thermo Scientific), timsTOF Pro (BRUKER), MALDI-TOF-MS (Applied Biosystem), SYNAPT HDMS (Waters), API QSTAR Pulsar (AB SCIEX)",
-  "Mass spectrometry informatics tools ", " Xcalibur, Proteome Discoverer (Thermo Scientific), MaxQuant and Perseus, Progenesis, Skyline, InfernoRDN, FragPipe and Spectronaut (Biognosys)",
+  "Mass spectrometry informatics tools ", " Xcalibur, Proteome Discoverer (Thermo Scientific), Bruker TIMSControl and Compass HySTAR 5.1, MaxQuant and Perseus, Progenesis, Skyline, InfernoRDN, FragPipe and Spectronaut (Biognosys), DIA-INN",
   "Chromatography instrumentation ", " Easy nLC series (Thermo Scientific)",
   "Language and softwares ", " R, Python (Basics), Machine learning (Basics), Jupyter enviornment, Cytoscape and Ingenuity Pathway Analysis "
 )

@@ -50,6 +50,7 @@ ref <- tribble(
 
 pubs <- tribble(
   ~Title, ~Authors, ~Journal, ~Year,
+  "Souza Junior DR, Silva ARM, Rosa-Fernandes L, Reis LR, Alexandria G, Bhosale SD, Ghilardi FR, Dalçóquio TF, Bertolin AJ, Nicolau JC, Marinho CRF, Wrenger C, Larsen MR, Siciliano RF, Di Mascio P, Palmisano G, Ronsein GE", "HDL proteome remodeling associates with COVID-19 severity","J Clin Lipidol", "2021",
   "Shetty A, Bhosale SD, Tripathi SK, Buchacher T, Biradar R, Rasool O, Moulder R, Galande S, Lahesmaa R", "Interactome Networks of FOSL1 and FOSL2 in Human Th17 Cells", "ACS Omega", "2021",
   "Khan MM, Ullah U, Khan MH, Kong L, Moulder R, Välikangas T, Bhosale SD, Komsi E, Rasool O, Chen Z, Elo LL, Westermarck J, Lahesmaa R", "CIP2A Constrains Th17 Differentiation by Modulating STAT3 Signaling", "iScience", "2020",
   "Khan MM, Välikangas T, Khan MH, Moulder R, Ullah U, Bhosale SD, Komsi E, Butt U, Qiao X, Westermarck J, Elo LL & Lahesmaa R", "Protein interactome of the Cancerous Inhibitor of protein phosphatase 2A (CIP2A) in Th17 cells","Current Research in Immunology", "2020",

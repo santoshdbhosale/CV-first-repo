@@ -45,7 +45,8 @@ ref <- tribble(
   'Robert Moulder, Ph.D.',  "Senior Scientist,  Turku Bioscience, P.O. Box 123 Biocity, FIN-20520, Turku, Finland", "robmou@utu.fi",
   'David R. Goodlett, Ph.D.',  "Professor of Biochemistry & Microbiology and Director Genome BC Proteome Centre at University of Victoria, Victoria, British Columbia, Canada", "goodlett@uvic.ca",
   'Martin R. Larsen, Ph.D.', "Professor, Department of Biochemistry and Molecular Biology, Campusvej 55, Odense M 5230, Denmark", "mrl@bmb.sdu.dk",
-  'Mahesh J. Kulkarni, Ph.D.',  "Principal Scientist, Biochemical Sciences Division, CSIR-National Chemical Laboratory, Pune, India", "mj.kulkarni@ncl.res.in"
+  'Mahesh J. Kulkarni, Ph.D.',  "Principal Scientist, Biochemical Sciences Division, CSIR-National Chemical Laboratory, Pune, India", "mj.kulkarni@ncl.res.in",
+  'Ole N. Jensen, Ph.D.', "Professor, Department of Biochemistry and Molecular Biology, Campusvej 55, Odense M 5230, Denmark", "jenseno@bmb.sdu.dk"
 )
 
 pubs <- tribble(

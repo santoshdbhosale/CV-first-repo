@@ -55,6 +55,8 @@ ref <- tribble(
 
 pubs <- tribble(
   ~Title, ~Authors, ~Journal, ~Year,
+  "Shetty A, Tripathi SK, Junttila S, Buchacher T, Biradar R, Bhosale SD, Envall T, Laiho A, Moulder R, Rasool O, Galande S, Elo LL and Lahesmaa R","A systematic comparison of FOSL1, FOSL2 and BATF-mediated transcriptional regulation during early human Th17 differentiation","Nucleic Acids Res", "2022",
+  "Kang T, Bhosale S, Edwards A, Larsen MR", "Phosphoproteomics: Methods and Challenges", "Reference Module in Life Sciences", "2022",
   "Souza Junior DR, Silva ARM, Rosa-Fernandes L, Reis LR, Alexandria G, Bhosale SD, Ghilardi FR, DalÃ§Ã³quio TF, Bertolin AJ, Nicolau JC, Marinho CRF, Wrenger C, Larsen MR, Siciliano RF, Di Mascio P, Palmisano G, Ronsein GE", "HDL proteome remodeling associates with COVID-19 severity","J Clin Lipidol", "2021",
   "Shetty A, Bhosale SD, Tripathi SK, Buchacher T, Biradar R, Rasool O, Moulder R, Galande S, Lahesmaa R", "Interactome Networks of FOSL1 and FOSL2 in Human Th17 Cells", "ACS Omega", "2021",
   "Khan MM, Ullah U, Khan MH, Kong L, Moulder R, VÃ¤likangas T, Bhosale SD, Komsi E, Rasool O, Chen Z, Elo LL, Westermarck J, Lahesmaa R", "CIP2A Constrains Th17 Differentiation by Modulating STAT3 Signaling", "iScience", "2020",
@@ -75,5 +77,4 @@ patents <- tribble(
   ~Title, ~Authors, ~where, ~detail,
   "Moulder R, Bhosale SD, Goodlett D, L?hdesm?ki H, Simell S, Lahesmaa R", "Means and methods for determining risk of type-1 diabetes by serum protein biomarkers", "Europe & USA", NA 
 )
-
 

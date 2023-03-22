@@ -56,8 +56,6 @@ work %>%
 
 ```
 
-\pagebreak
-
 # Education
 
 ```{r EDUCATION}

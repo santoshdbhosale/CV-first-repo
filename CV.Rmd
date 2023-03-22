@@ -1,10 +1,10 @@
 ---
 name: Santosh
 surname: Bhosale
-position: "Postdoctoral Researcher"
-address: "University of Southern Denmark, Odense, Denmark"
+position: "Associate Biomedical Scientist"
+address: "Cedars-Sinai Precision Biomarker Laboratories, Los Angeles, CA, USA"
 profilepic: "./img/SDB.png"
-email: "santoshb@bmb.sdu.dk"
+email: "santosh.bhosale@cshs.org"
 www: santoshdbhosale.github.io
 linkedin: santoshdbhosale
 github: santoshdbhosale

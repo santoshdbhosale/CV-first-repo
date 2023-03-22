@@ -29,6 +29,8 @@ edu <- tribble(
 
 work <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+  "Associate Biomedical Scientist", "Cedars-Sinai Precision Biomarker Laboratories", "February", 2023, "Present", NA, "Los Angeles - USA","Research and development operations realted to clinical proteomics", 
+  "Associate Biomedical Scientist", "Cedars-Sinai Precision Biomarker Laboratories", "February", 2023, "Present", NA, "Los Angeles - USA","Client facing role", 
   "Postdoctoral Researcher", "Protein Research Group, Department of Biochemistry and Molecular Biology, University of Southern Denmark", "January", 2020, "Present", NA, "Odense - Denmark", "Development of a post-translational modification (Cysteine, N-linked glycosylated and phospho modified) specific biomarkers discovery platform for the diagnosis of disease",
   "Postdoctoral Researcher", "Protein Research Group, Department of Biochemistry and Molecular Biology, University of Southern Denmark", "January", 2020, "Present", NA, "Odense - Denmark", "Analysis of PTMomics data to identify candidate plasma biomarkers to stratify ovarian cancer patients",
   "Postdoctoral Researcher", "Protein Research Group, Department of Biochemistry and Molecular Biology, University of Southern Denmark", "January", 2020, "Present", NA, "Odense - Denmark", "Supervise and work with technician and PhD students",

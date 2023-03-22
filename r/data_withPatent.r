@@ -55,6 +55,7 @@ ref <- tribble(
 
 pubs <- tribble(
   ~Title, ~Authors, ~Journal, ~Year,
+  "Beltrán-Camacho L, Bhosale SD, Sánchez-Morillo D, Sánchez-Gomar I, Rojas-Torres M, Eslava-Alcón S, Martínez-Torija M, Ruiz de Infante MA, Nieto-Martín MD, Rodríguez-Iglesias MA, Moreno JA, Berrocoso E, Larsen MR, Moreno-Luna R, Carmen Durán-Ruiz M", "Cardiovascular-related proteomic changes in ECFCs exposed to the serum of COVID-19 patients","Int J Biol Sci","2023",
   "Shetty A, Tripathi SK, Junttila S, Buchacher T, Biradar R, Bhosale SD, Envall T, Laiho A, Moulder R, Rasool O, Galande S, Elo LL and Lahesmaa R","A systematic comparison of FOSL1, FOSL2 and BATF-mediated transcriptional regulation during early human Th17 differentiation","Nucleic Acids Res", "2022",
   "Kang T, Bhosale S, Edwards A, Larsen MR", "Phosphoproteomics: Methods and Challenges", "Reference Module in Life Sciences", "2022",
   "Souza Junior DR, Silva ARM, Rosa-Fernandes L, Reis LR, Alexandria G, Bhosale SD, Ghilardi FR, DalÃ§Ã³quio TF, Bertolin AJ, Nicolau JC, Marinho CRF, Wrenger C, Larsen MR, Siciliano RF, Di Mascio P, Palmisano G, Ronsein GE", "HDL proteome remodeling associates with COVID-19 severity","J Clin Lipidol", "2021",

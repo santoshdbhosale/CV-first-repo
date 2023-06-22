@@ -1,0 +1,117 @@
+---
+title: "Raj S. Jadhav resume"
+author: Raj S. Jadhav
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+# uncomment this line to produce HTML and PDF in RStudio:
+knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+
+![RAJ](/Data/Documents/Personal/raj3.png)
+
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> rajsjadhav10@gmail.com
+- <i class="fa fa-wordpress"></i> [wordpress.com/rajsjadhav10](https://rajsjadhav10.wordpress.com/)
+- <i class="fa fa-linkedin"></i> [linkedin.com/raj-jadhav-400473191](https://www.linkedin.com/in/raj-jadhav-400473191/)
+- <i class="fa fa-phone"></i> +91 9527233467
+
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Strong understanding and skills in Schedule Y, ICH GCP, and FDA regulations and practices
+
+- Thorough familiarity with the procedures and tools used to manage clinical trials.
+
+- Proficient user of MS Office (Word, PowerPoint & Excel 2010)
+
+- Excellent Communication Skills, Time Management, Project Management skills, Leadership
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+Main
+================================================================================
+
+Raj S. Jadhav {#title}
+--------------------------------------------------------------------------------
+
+**My ambition is to use my acquired knowledge and skill sets to achieve organizational goals as a team member in the corporate secto**
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Dr. Babasaheb Ambedkar Technological University
+
+Bachelor of Pharmacy (Results awaiting)
+
+Pune, India
+
+2019 - 2023
+
+**Thesis:** Formulation and Evaluation of Multiparticulate Dosage Form by Ionic Gelation Method for the treatment of gout
+
+*summary:* Gout it is a metabolic disorder characterized by hyperuricaemia (normal plasma rate 2–6 mg/dl).In this Project we used Colchicine as an Active Pharmaceutical Ingredient. The goal was to develop formulations that can improve drug stability, increase drug effectiveness in the 
+body, and enable targeted drug delivery and customized drug delivery systems.
+
+### MITCON Biotechnology & Pharmaceutical Center
+
+Diploma in Clinical Research,Clinical Data Management and Pharmacovigilance (Results awaiting)
+
+Pune, India
+
+2022 - 2023
+
+### R.R. Shinde Junior College
+
+Higher Secondary School Certificate (58.15%)
+
+Pune, India
+
+2018 - 2019
+
+### Sadhana Vidyalaya
+
+Secondary School Certificate (84%)
+
+Pune, India
+
+2016 - 2017
+
+
+Internship {data-icon=suitcase}
+--------------------------------------------------------------------------
+### Internship Trainee
+
+Eisen Pharmaceuticals
+
+Pune, India
+
+2023 - 2023
+
+
+
+
+
+
+
+

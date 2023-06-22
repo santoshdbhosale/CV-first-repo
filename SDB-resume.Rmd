@@ -1,0 +1,155 @@
+---
+title: "Santosh D. Bhosale resume"
+author: Santosh D. Bhosale
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+# uncomment this line to produce HTML and PDF in RStudio:
+#knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+
+![SDB](/Users/santoshb/Downloads/img/SDB.png)
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> santoshdbhosale@gmail.com
+- <i class="fa fa-github"></i> [github.com/santoshdbhosale](https://github.com/santoshdbhosale)
+- <i class="fa fa-linkedin"></i> [linkedin.com/santoshdbhosale](https://www.linkedin.com/in/santoshdbhosale/)
+
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Development of proteomics and mass spectrometry workflows.
+
+- Proteomics data generation, analysis and visualization using R, Python.
+
+- Presentation of work internally as well as to the clients
+
+- Reports compilation and manuscript writing
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Santosh D. Bhosale {#title}
+--------------------------------------------------------------------------------
+
+**I do mass spectrometry based proteomics research, including discovery and validation of protein biomarkers in clinical samples. Collaborations with clinicians, mass spectrometry experts and bioinformaticians.**
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### University of Turku (Turku Bioscience)
+
+PhD 
+
+Turku, Finland
+
+2012-2018
+
+**Thesis:** Serum proteomics to detect early changes in type 1 diabetes and 
+carotid atherosclerosis
+
+### Rajasthan University of Health Sciences
+
+Masters in Pharmaceutical chemistry
+
+Jodhpur, India
+
+2005-2009
+
+**Thesis:** Identification of new interacting Protein partners of Ibuprofen and
+Analgin by Proteomics approach
+
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+### Associate Biomedical Scientist
+
+Cedars-Sinai Precision Biomarker Laboratories
+
+Los Angeles, USA
+
+2023 - Present
+
+- Research and development operations related to clinical proteomics.
+- Presentation of work internally as well as to the
+clients.
+
+### Postdoctoral Researcher
+
+University of Southern Denmark.
+
+Odense, Denmark
+
+2020 - 2022
+
+- Development of a post-translational modification (Cysteine, N-linked glycosylated and phospho modified) specific biomarkers discovery platform for the diagnosis of disease
+- Analysis of PTMomics data.
+- Supervise and work with technician and PhD student as well as work presentaion.
+
+### Postdoctoral Researcher
+
+Turku Bioscience
+
+Turku, Finland
+
+2018 - 2019
+
+- Serum proteomics measurements for type 1 diabetes and carotid atherosclerosis.
+- Cellular proteomics and interactomics experiment.
+- Designed and presented practical courses on proteomics data analysis.
+
+### Project Assistant
+
+National Chemical Laboratory
+
+Pune, India
+
+2009 - 2011
+
+- Proteomics laboratory work including protein extraction, digestion and cleanup, SDS-PAGE, MS analysis of glycated proteins, oligonulceotides
+and small molecules
+  
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Lecturer
+
+JSPMS JSCOPR affiliated to University of Pune
+
+Pune, India
+
+2008 - 2009
+
+- Taught theory and practicals for pharmaceutical biochemistry and pharmaceutical analysis to the bachelor of pharmacy students
+- Supervised undergraduate pharmacy students
+
+
+
+
+
+
+

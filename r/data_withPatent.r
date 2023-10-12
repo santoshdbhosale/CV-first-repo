@@ -1,11 +1,12 @@
 skills <- tribble(
   ~area, ~skills,
   "Wet lab", " Cell culture work, animal handling and clinical samples, Cell & tissue sample lysis, SDS-PAGE electrophoresis (1D, 2D) and western blotting ",
-  "Proteomics", "Trypsin digestion, immunodepletion of serum &/or plasma samples, label free quantification, isobaric labeling, off-line high pH fractionation, PTMs enrichment and immunoprecipitation experiments",
+  "High throughput proteomics", "Trypsin digestion, immunodepletion of serum &/or plasma samples, label free quantification, isobaric labeling, off-line high pH fractionation, PTMs enrichment and immunoprecipitation experiments",
   "Mass spectrometry", "Operation and troubleshooting of a range of instruments LTQ Orbitrap Velos Pro, Q Exactive series, Orbitrap Exploris 480 Mass Spectrometer, TSQ Vantage (all from Thermo Scientific), timsTOF Pro (BRUKER), MALDI-TOF-MS (Applied Biosystem)",
   "Mass spectrometry informatics tools ", " Xcalibur, Proteome Discoverer (Thermo Scientific), Bruker timsControl and Compass HyStar, MaxQuant and Perseus, Progenesis, Skyline, InfernoRDN, FragPipe, Spectronaut (Biognosys) and DIA-NN",
   "Chromatography instrumentation ", " Easy nLC series (Thermo Scientific)",
-  "Language and softwares ", " R, Python (Basics), Machine learning (Basics), Jupyter enviornment, Omics notebook, Cytoscape and Ingenuity Pathway Analysis "
+  "Automation platform", "SP100 Automation instrument (Hamilton robot), Biomek i-Series Automated workstation", 
+  "Language and softwares ", " R, Python, Machine learning, Jupyter enviornment, Omics data, Cytoscape and Ingenuity Pathway Analysis "
 )
 
 awards <- tribble(
@@ -31,10 +32,10 @@ work <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
   "Associate Biomedical Scientist", "Cedars-Sinai Precision Biomarker Laboratories", "February", 2023, "Present", NA, "Los Angeles - USA","Research and development operations realted to clinical proteomics", 
   "Associate Biomedical Scientist", "Cedars-Sinai Precision Biomarker Laboratories", "February", 2023, "Present", NA, "Los Angeles - USA","Client facing role", 
-  "Postdoctoral Researcher", "Protein Research Group, Department of Biochemistry and Molecular Biology, University of Southern Denmark", "January", 2020, "Present", NA, "Odense - Denmark", "Development of a post-translational modification (Cysteine, N-linked glycosylated and phospho modified) specific biomarkers discovery platform for the diagnosis of disease",
-  "Postdoctoral Researcher", "Protein Research Group, Department of Biochemistry and Molecular Biology, University of Southern Denmark", "January", 2020, "Present", NA, "Odense - Denmark", "Analysis of PTMomics data to identify candidate plasma biomarkers to stratify ovarian cancer patients",
-  "Postdoctoral Researcher", "Protein Research Group, Department of Biochemistry and Molecular Biology, University of Southern Denmark", "January", 2020, "Present", NA, "Odense - Denmark", "Supervise and work with technician and PhD students",
-  "Postdoctoral Researcher", "Protein Research Group, Department of Biochemistry and Molecular Biology, University of Southern Denmark", "January", 2020, "Present", NA, "Odense - Denmark", "Work presentation internally and to the collaborators and, report writing",
+  "Postdoctoral Researcher", "Protein Research Group, Department of Biochemistry and Molecular Biology, University of Southern Denmark", "January", 2020, "December", 2022, "Odense - Denmark", "Development of a post-translational modification (Cysteine, N-linked glycosylated and phospho modified) specific biomarkers discovery platform for the diagnosis of disease",
+  "Postdoctoral Researcher", "Protein Research Group, Department of Biochemistry and Molecular Biology, University of Southern Denmark", "January", 2020, "December", 2022, "Odense - Denmark", "Analysis of PTMomics data to identify candidate plasma biomarkers to stratify ovarian cancer patients",
+  "Postdoctoral Researcher", "Protein Research Group, Department of Biochemistry and Molecular Biology, University of Southern Denmark", "January", 2020, "December", 2022, "Odense - Denmark", "Supervise and work with technician and PhD students",
+  "Postdoctoral Researcher", "Protein Research Group, Department of Biochemistry and Molecular Biology, University of Southern Denmark", "January", 2020, "December", 2022, "Odense - Denmark", "Work presentation internally and to the collaborators and, report writing",
   "Postdoctoral Researcher ", " University of Turku - Turku Bioscience ", "November", 2018, "December", 2019, "Turku - Finland","Serum proteomics measurements to compare the effects of nutrition supplementation in infancy and, child and mother proteome correlation",
   "Postdoctoral Researcher ", " University of Turku - Turku Bioscience ", "November", 2018, "December", 2019, "Turku - Finland","Analyzed temporal serum proteomes of celiac disease (CD) developing children",
   "Postdoctoral Researcher ", " University of Turku - Turku Bioscience ", "November", 2018, "December", 2019, "Turku - Finland"," Conducted the interactomics measurements and data analysis for several trasnscription factors of T cells",
@@ -57,20 +58,21 @@ ref <- tribble(
 
 pubs <- tribble(
   ~Title, ~Authors, ~Journal, ~Year,
+  "Hirvonen MK, Lietzén N, Moulder R, Bhosale SD, Koskenniemi J, Vähä-Mäkilä M, Nurmio M, Orešič M, Ilonen J, Toppari J, Veijola R, Hyöty H, Lähdesmäki H, Knip M, Cheng L, Lahesmaa R", "Serum APOC1 levels are decreased in young autoantibody positive children who rapidly progress to type 1 diabetes", "Sci Rep", "2023",
   "Beltrán-Camacho L, Bhosale SD, Sánchez-Morillo D, Sánchez-Gomar I, Rojas-Torres M, Eslava-Alcón S, Martínez-Torija M, Ruiz de Infante MA, Nieto-Martín MD, Rodríguez-Iglesias MA, Moreno JA, Berrocoso E, Larsen MR, Moreno-Luna R, Carmen Durán-Ruiz M", "Cardiovascular-related proteomic changes in ECFCs exposed to the serum of COVID-19 patients","Int J Biol Sci","2023",
   "Shetty A, Tripathi SK, Junttila S, Buchacher T, Biradar R, Bhosale SD, Envall T, Laiho A, Moulder R, Rasool O, Galande S, Elo LL and Lahesmaa R","A systematic comparison of FOSL1, FOSL2 and BATF-mediated transcriptional regulation during early human Th17 differentiation","Nucleic Acids Res", "2022",
   "Kang T, Bhosale S, Edwards A, Larsen MR", "Phosphoproteomics: Methods and Challenges", "Reference Module in Life Sciences", "2022",
-  "Souza Junior DR, Silva ARM, Rosa-Fernandes L, Reis LR, Alexandria G, Bhosale SD, Ghilardi FR, DalÃ§Ã³quio TF, Bertolin AJ, Nicolau JC, Marinho CRF, Wrenger C, Larsen MR, Siciliano RF, Di Mascio P, Palmisano G, Ronsein GE", "HDL proteome remodeling associates with COVID-19 severity","J Clin Lipidol", "2021",
+  "Souza Junior DR, Silva ARM, Rosa-Fernandes L, Reis LR, Alexandria G, Bhosale SD, Ghilardi FR, Dalçóquio TF, Bertolin AJ, Nicolau JC, Marinho CRF, Wrenger C, Larsen MR, Siciliano RF, Di Mascio P, Palmisano G, Ronsein GE", "HDL proteome remodeling associates with COVID-19 severity","J Clin Lipidol", "2021",
   "Shetty A, Bhosale SD, Tripathi SK, Buchacher T, Biradar R, Rasool O, Moulder R, Galande S, Lahesmaa R", "Interactome Networks of FOSL1 and FOSL2 in Human Th17 Cells", "ACS Omega", "2021",
-  "Khan MM, Ullah U, Khan MH, Kong L, Moulder R, VÃ¤likangas T, Bhosale SD, Komsi E, Rasool O, Chen Z, Elo LL, Westermarck J, Lahesmaa R", "CIP2A Constrains Th17 Differentiation by Modulating STAT3 Signaling", "iScience", "2020",
-  "Khan MM, VÃ¤likangas T, Khan MH, Moulder R, Ullah U, Bhosale SD, Komsi E, Butt U, Qiao X, Westermarck J, Elo LL & Lahesmaa R", "Protein interactome of the Cancerous Inhibitor of protein phosphatase 2A (CIP2A) in Th17 cells","Current Research in Immunology", "2020",
-  "Tripathi SK, VÃ¤likangas T, Shetty A, Khan MM, Moulder R, Bhosale SD, Komsi E, Salo V, De Albuquerque RS, Rasool O, Galande S, Elo LL, Lahesmaa R", "Quantitative Proteomics Reveals the Dynamic Protein Landscape during Initiation of Human Th17 Cell Polarization", "iScience", "2019",
-  "Bhosale SD, Moulder R, VenÃ¤lÃ¤inen MS, Koskinen JS, PitkÃ¤nen N, Juonala M, KÃ¤hÃ¶nen M, LehtimÃ¤ki T, Viikari J, Elo LL, Goodlett DR, Lahesmaa R, Raitakari OT", "Serum Proteomic Profiling to Identify Biomarkers of Premature Carotid Atherosclerosis", "Sci Rep", "2018",
+  "Khan MM, Ullah U, Khan MH, Kong L, Moulder R, Välikangas T, Bhosale SD, Komsi E, Rasool O, Chen Z, Elo LL, Westermarck J, Lahesmaa R", "CIP2A Constrains Th17 Differentiation by Modulating STAT3 Signaling", "iScience", "2020",
+  "Khan MM, Välikangas T, Khan MH, Moulder R, Ullah U, Bhosale SD, Komsi E, Butt U, Qiao X, Westermarck J, Elo LL & Lahesmaa R", "Protein interactome of the Cancerous Inhibitor of protein phosphatase 2A (CIP2A) in Th17 cells","Current Research in Immunology", "2020",
+  "Tripathi SK, Välikangas T, Shetty A, Khan MM, Moulder R, Bhosale SD, Komsi E, Salo V, De Albuquerque RS, Rasool O, Galande S, Elo LL, Lahesmaa R", "Quantitative Proteomics Reveals the Dynamic Protein Landscape during Initiation of Human Th17 Cell Polarization", "iScience", "2019",
+  "Bhosale SD, Moulder R, Venäläinen MS, Koskinen JS, Pitkänen N, Juonala M, Kähönen M, Lehtimäki T, Viikari J, Elo LL, Goodlett DR, Lahesmaa R, Raitakari OT", "Serum Proteomic Profiling to Identify Biomarkers of Premature Carotid Atherosclerosis", "Sci Rep", "2018",
   "Mohammad I, Nousiainen K, Bhosale SD, Starskaia I, Moulder R, Rokka A, Cheng F, Mohanasundaram P, Eriksson JE, Goodlett DR, LÃ¤hdesmÃ¤ki H, Chen Z", "Quantitative proteomic characterization and comparison of T helper 17 and induced regulatory T cells", "PLos Biol", "2018",
   "Moulder R, Bhosale SD, Goodlett DR, Lahesmaa R", "Analysis of the plasma proteome using iTRAQ and TMT-based Isobaric labeling", "Mass Spectrom Rev", "2018",
   "Bhosale SD, Moulder R, Kouvonen P, Lahesmaa R, Goodlett DR", "Mass Spectrometry-Based Serum Proteomics for Biomarker Discovery and Validation", "Methods Mol Biol", "2017",
   "Moulder R, Bhosale SD, Lahesmaa R, Goodlett DR", "The progress and potential of proteomic biomarkers for type 1 diabetes in children", "Expert Rev Proteomics", "2017",
-  "Moulder R, Bhosale SD, ErkkilÃ¤ T, Laajala E, Salmi J, Nguyen EV, KallionpÃ¤Ã¤ H, MykkÃ¤nen J, VÃ¤hÃ¤-MÃ¤kilÃ¤ M, HyÃ¶ty H, Veijola R, Ilonen J, Simell T, Toppari J, Knip M, Goodlett DR, LÃ¤hdesmÃ¤ki H, Simell O, Lahesmaa R", "Serum proteomes distinguish children developing type 1 diabetes in a cohort with HLA-conferred susceptibility", "Diabetes", "2015",
+  "Moulder R, Bhosale SD, Erkkilä T, Laajala E, Salmi J, Nguyen EV, Kallionpää H,  Mykkänen J, Vähä-Mäkilä M, Hyöty H, Veijola R, Ilonen J, Simell T, Toppari J, Knip M, Goodlett DR, Lähdesmäki H, Simell O, Lahesmaa R", "Serum proteomes distinguish children developing type 1 diabetes in a cohort with HLA-conferred susceptibility", "Diabetes", "2015",
   "Kesavan SK, Bhat S, Golegaonkar SB, Jagadeeshaprasad MG, Deshmukh AB, Patil HS, Bhosale SD, Shaikh ML, Thulasiram HV, Boppana R, Kulkarni MJ", "Proteome wide reduction in AGE modification in streptozotocin induced diabetic mice by hydralazine mediated transglycation", "Sci Rep", "2013",
   "Bhonsle HS, Korwar AM, Kesavan SK, Bhosale SD, Bansode SB, Kulkarni MJ", "Zoom-ln A targeted database search for identification of glycation modifications analyzed by untargeted tandem mass spectrometry", "Eur J Mass Spectrom (Chichester)", "2012",
   "Suresh KK, Bhosale SD, Thulasiram HV, Kulkarni MJ", "Comparative and chemical proteomic approaches reveal gatifloxacin deregulates enzymes involved in glucose metabolism", "J Toxicol Sci", "2011"
@@ -78,6 +80,6 @@ pubs <- tribble(
 
 patents <- tribble(
   ~Title, ~Authors, ~where, ~detail,
-  "Moulder R, Bhosale SD, Goodlett D, L?hdesm?ki H, Simell S, Lahesmaa R", "Means and methods for determining risk of type-1 diabetes by serum protein biomarkers", "Europe & USA", NA 
+  "Moulder R, Bhosale SD, Goodlett D, Lähdesmäki H, Simell S, Lahesmaa R", "Means and methods for determining risk of type-1 diabetes by serum protein biomarkers", "Europe & USA", NA 
 )
 

@@ -7,14 +7,15 @@ output:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: false
 # uncomment this line to produce HTML and PDF in RStudio:
-#knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 ---
 
 Aside
 ================================================================================
 
 
-![SDB](/Users/santoshb/Downloads/img/SDB.png)
+![SDB](/Data/Documents/Personal/SDB2.png)
+
 
 
 Contact Info {#contact}
@@ -22,6 +23,8 @@ Contact Info {#contact}
 
 - <i class="fa fa-envelope"></i> santoshdbhosale@gmail.com
 - <i class="fa fa-github"></i> [github.com/santoshdbhosale](https://github.com/santoshdbhosale)
+- <i class="fa fa-link"></i> [santoshdbhosale.github.io](https://santoshdbhosale.github.io/)
+- <i class="fa fa-file"></i> [Google-Scholar](https://scholar.google.com/citations?user=sIxWbx0AAAAJ&hl=en)
 - <i class="fa fa-linkedin"></i> [linkedin.com/santoshdbhosale](https://www.linkedin.com/in/santoshdbhosale/)
 
 
@@ -53,36 +56,9 @@ Main
 Santosh D. Bhosale {#title}
 --------------------------------------------------------------------------------
 
-**I do mass spectrometry based proteomics research, including discovery and validation of protein biomarkers in clinical samples. Collaborations with clinicians, mass spectrometry experts and bioinformaticians.**
+**Highly motivated and results-oriented scientist with extensive knowledge of proteomics research and strong computational abilities. Competent with open tools and technologies for data-driven decision making. Seeking to contribute as a Data Science Professional  to make transformative discoveries.**
 
-
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
-
-### University of Turku (Turku Bioscience)
-
-PhD 
-
-Turku, Finland
-
-2012-2018
-
-**Thesis:** Serum proteomics to detect early changes in type 1 diabetes and 
-carotid atherosclerosis
-
-### Rajasthan University of Health Sciences
-
-Masters in Pharmaceutical chemistry
-
-Jodhpur, India
-
-2005-2009
-
-**Thesis:** Identification of new interacting Protein partners of Ibuprofen and
-Analgin by Proteomics approach
-
-
-Research Experience {data-icon=laptop}
+Employment {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ### Associate Biomedical Scientist
@@ -94,8 +70,7 @@ Los Angeles, USA
 2023 - Present
 
 - Research and development operations related to clinical proteomics.
-- Presentation of work internally as well as to the
-clients.
+- Presentation of work internally as well as to the clients.
 
 ### Postdoctoral Researcher
 
@@ -129,8 +104,7 @@ Pune, India
 
 2009 - 2011
 
-- Proteomics laboratory work including protein extraction, digestion and cleanup, SDS-PAGE, MS analysis of glycated proteins, oligonulceotides
-and small molecules
+- Proteomics laboratory work including protein extraction, digestion and cleanup, SDS-PAGE, MS analysis of glycated proteins, oligonulceotides and small molecules
   
 
 Teaching Experience {data-icon=chalkboard-teacher}
@@ -147,8 +121,28 @@ Pune, India
 - Taught theory and practicals for pharmaceutical biochemistry and pharmaceutical analysis to the bachelor of pharmacy students
 - Supervised undergraduate pharmacy students
 
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
 
+### University of Turku (Turku Bioscience)
 
+PhD 
+
+Turku, Finland
+
+2012 - 2018
+
+**Thesis:** Serum proteomics to detect early changes in type 1 diabetes and carotid atherosclerosis
+
+### Rajasthan University of Health Sciences
+
+Masters in Pharmaceutical chemistry
+
+Jodhpur, India
+
+2005 - 2009
+
+**Thesis:** Identification of new interacting Protein partners of Ibuprofen and Analgin by Proteomics approach
 
 
 

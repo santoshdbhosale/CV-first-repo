@@ -108,7 +108,7 @@ patents %>%
     why = detail
   )
 ```
-
+\newpage
 # References
 
 ```{r REFERENCES}

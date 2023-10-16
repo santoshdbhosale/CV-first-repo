@@ -58,6 +58,7 @@ ref <- tribble(
 
 pubs <- tribble(
   ~Title, ~Authors, ~Journal, ~Year,
+  "Andrabi SBA, Batkulwar K, Bhosale SD, Moulder R, Khan MH, Buchacher T, Khan MM, Arnkil I, Rasool O, Marson A, Kalim UU, Lahesmaa R", "HIC1 interacts with FOXP3 multi protein complex: novel pleiotropic mechanisms to regulate human regulatory T cell differentiation and function","Immunol Lett","2023",
   "Hirvonen MK, Lietzén N, Moulder R, Bhosale SD, Koskenniemi J, Vähä-Mäkilä M, Nurmio M, Orešič M, Ilonen J, Toppari J, Veijola R, Hyöty H, Lähdesmäki H, Knip M, Cheng L, Lahesmaa R", "Serum APOC1 levels are decreased in young autoantibody positive children who rapidly progress to type 1 diabetes", "Sci Rep", "2023",
   "Beltrán-Camacho L, Bhosale SD, Sánchez-Morillo D, Sánchez-Gomar I, Rojas-Torres M, Eslava-Alcón S, Martínez-Torija M, Ruiz de Infante MA, Nieto-Martín MD, Rodríguez-Iglesias MA, Moreno JA, Berrocoso E, Larsen MR, Moreno-Luna R, Carmen Durán-Ruiz M", "Cardiovascular-related proteomic changes in ECFCs exposed to the serum of COVID-19 patients","Int J Biol Sci","2023",
   "Shetty A, Tripathi SK, Junttila S, Buchacher T, Biradar R, Bhosale SD, Envall T, Laiho A, Moulder R, Rasool O, Galande S, Elo LL and Lahesmaa R","A systematic comparison of FOSL1, FOSL2 and BATF-mediated transcriptional regulation during early human Th17 differentiation","Nucleic Acids Res", "2022",

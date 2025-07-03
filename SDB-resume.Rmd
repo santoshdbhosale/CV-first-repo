@@ -6,60 +6,66 @@ output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: false
-# uncomment this line to produce HTML and PDF in RStudio:
+uncomment this line to produce HTML and PDF in RStudio:
 knit: pagedown::chrome_print
 ---
 
-Aside
-================================================================================
+# Aside
 
+![SDB](SDB2.png)
 
-![SDB](/Data/Documents/Personal/SDB2.png)
+## Contact Info {#contact}
 
+-   <i class="fa fa-envelope"></i> [santoshdbhosale\@gmail.com](mailto:santoshdbhosale@gmail.com){.email}
+-   <i class="fa fa-github"></i> [github.com/santoshdbhosale](https://github.com/santoshdbhosale)
+-   <i class="fa fa-link"></i> [santoshdbhosale.github.io](https://santoshdbhosale.github.io/)
+-   <i class="fa-brands fa-google-scholar"></i> [Google-Scholar](https://scholar.google.com/citations?user=sIxWbx0AAAAJ&hl=en)
+-   <i class="fa-brands fa-linkedin"></i> [linkedin.com/santoshdbhosale](https://www.linkedin.com/in/santoshdbhosale/)
 
+## Skills {#skills}
 
-Contact Info {#contact}
---------------------------------------------------------------------------------
+-   Developing solutions for the discovery of biomarkers for precision medicine.
 
-- <i class="fa fa-envelope"></i> santoshdbhosale@gmail.com
-- <i class="fa fa-github"></i> [github.com/santoshdbhosale](https://github.com/santoshdbhosale)
-- <i class="fa fa-link"></i> [santoshdbhosale.github.io](https://santoshdbhosale.github.io/)
-- <i class="fa fa-file"></i> [Google-Scholar](https://scholar.google.com/citations?user=sIxWbx0AAAAJ&hl=en)
-- <i class="fa fa-linkedin"></i> [linkedin.com/santoshdbhosale](https://www.linkedin.com/in/santoshdbhosale/)
+-   Quantitative analysis, interpretations and visualization of high-dimensional proteomics data using R and Python.
 
+-   Disease pathway enrichment analysis.
 
+-   EHR and EMR data analysis and it's correlation with proteomics data.
 
-Skills {#skills}
---------------------------------------------------------------------------------
+-   Reports compilation and work presentation.
 
-- Development of proteomics and mass spectrometry workflows.
+-   Collaboration with clinicians, mass spectrometry experts and data scientists.
 
-- Proteomics data generation, analysis and visualization using R, Python.
+# Main
 
-- Presentation of work internally as well as to the clients
+## Santosh D. Bhosale {#title}
 
-- Reports compilation and manuscript writing
+**Highly motivated and results-oriented scientist with extensive knowledge of proteomics research and strong computational abilities. Competent with open tools and technologies for data-driven decision making. Seeking to contribute as a Data Science Professional to make transformative discoveries.**
 
+## Employment {data-icon="laptop"}
+### Product Manager
 
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
+Innoplexus Consulting Pvt. Ltd.
 
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+Pune, India
 
-Last updated on `r Sys.Date()`.
+Jan 2025 - Present
 
+- Leading an effort to develop biomarker module for omics data
+- Collaboration with data engineers and data scientists
+- Data extraction task from external databases (ClinicalTrials.gov, PubChem) using Llama and Gemini models
+- Python scripting for automating biocuration
 
+### Associate Scientific Manager
 
-Main
-================================================================================
+Innoplexus Consulting Pvt. Ltd.
 
-Santosh D. Bhosale {#title}
---------------------------------------------------------------------------------
+Pune, India
 
-**Highly motivated and results-oriented scientist with extensive knowledge of proteomics research and strong computational abilities. Competent with open tools and technologies for data-driven decision making. Seeking to contribute as a Data Science Professional  to make transformative discoveries.**
+Aug 2024 - Nov 2024
 
-Employment {data-icon=laptop}
---------------------------------------------------------------------------------
+- Data curation for the outputs generated via different modules built to accelerate the drug discovery and development process using AI/ML approach
+- Collaboration with data engineers and data scientists in an agile environment
 
 ### Associate Biomedical Scientist
 
@@ -67,10 +73,10 @@ Cedars-Sinai Precision Biomarker Laboratories
 
 Los Angeles, USA
 
-2023 - Present
+Feb 2023 - Jun 2024
 
-- Research and development operations related to clinical proteomics.
-- Presentation of work internally as well as to the clients.
+-   Applied mass spectrometry-based proteomics technologies to study the complexity of proteome.
+-   Presentation of work internally as well as to the clients.
 
 ### Postdoctoral Researcher
 
@@ -78,11 +84,11 @@ University of Southern Denmark.
 
 Odense, Denmark
 
-2020 - 2022
+Jan 2020 - Dec 2022
 
-- Development of a post-translational modification (Cysteine, N-linked glycosylated and phospho modified) specific biomarkers discovery platform for the diagnosis of disease
-- Analysis of PTMomics data.
-- Supervise and work with technician and PhD student as well as work presentaion.
+-   Development of a post-translational modification (Cysteine, N-linked glycosylated and phospho modified) specific biomarkers discovery platform for the diagnosis of disease
+-   Analysis of PTMomics data.
+-   Supervised and worked with technician and PhD student as well as work presentaion.
 
 ### Postdoctoral Researcher
 
@@ -90,11 +96,11 @@ Turku Bioscience
 
 Turku, Finland
 
-2018 - 2019
+Nov 2018 - Dec 2019
 
-- Serum proteomics measurements for type 1 diabetes and carotid atherosclerosis.
-- Cellular proteomics and interactomics experiment.
-- Designed and presented practical courses on proteomics data analysis.
+-   Serum proteomics measurements for type 1 diabetes and carotid atherosclerosis.
+-   Cellular proteomics and interactomics experiment.
+-   Designed and presented practical courses on proteomics data analysis.
 
 ### Project Assistant
 
@@ -102,13 +108,11 @@ National Chemical Laboratory
 
 Pune, India
 
-2009 - 2011
+Nov 2009 - Dec 2011
 
-- Proteomics laboratory work including protein extraction, digestion and cleanup, SDS-PAGE, MS analysis of glycated proteins, oligonulceotides and small molecules
-  
+-   Proteomics laboratory work including protein extraction, digestion and cleanup, SDS-PAGE, MS analysis of glycated proteins, oligonulceotides and small molecules
 
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
+## Teaching Experience {data-icon="chalkboard-teacher"}
 
 ### Lecturer
 
@@ -116,17 +120,16 @@ JSPMS JSCOPR affiliated to University of Pune
 
 Pune, India
 
-2008 - 2009
+Jul 2008 - Nov 2009
 
-- Taught theory and practicals for pharmaceutical biochemistry and pharmaceutical analysis to the bachelor of pharmacy students
-- Supervised undergraduate pharmacy students
+-   Taught theory and practicals for pharmaceutical biochemistry and pharmaceutical analysis to the bachelor of pharmacy students
+-   Supervised undergraduate pharmacy students
 
-Education {data-icon=graduation-cap data-concise=true}
---------------------------------------------------------------------------------
+## Education {data-icon="graduation-cap" data-concise="true"}
 
 ### University of Turku (Turku Bioscience)
 
-PhD 
+PhD (Medical Microbiology and Immunology)
 
 Turku, Finland
 
@@ -143,7 +146,3 @@ Jodhpur, India
 2005 - 2009
 
 **Thesis:** Identification of new interacting Protein partners of Ibuprofen and Analgin by Proteomics approach
-
-
-
-

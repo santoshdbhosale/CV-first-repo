@@ -1,0 +1,125 @@
+---
+name: Santosh
+surname: Bhosale
+profilepic: "./img/SDB2.png"
+email: "santoshdbhosale@gmail.com"
+www: santoshdbhosale.github.io
+linkedin: santoshdbhosale
+github: santoshdbhosale
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 990000
+aboutme: "Previously, as a scientist, I applied my expertise in proteomics to develop and validate biomarkers for precision medicine. Collaborations with clinicians, mass spectrometry experts and bioinformaticians. Currently, I am leveraging the capabilities of AI and ML tools to accelerate the drug discovery process by collaborating with data engineers and scientists."
+docname: CV
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+library(vitae)
+library(tibble)
+library(magrittr)
+library(here)
+library(readr)
+
+
+source(file = here("r","data_withPatent.r"))
+
+```
+
+# Research Proficiency
+
+```{r SKILLS}
+
+skills %>%
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+
+```
+
+# Employment
+
+```{r EMPLOYMENT}
+
+work %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+
+# Education
+
+```{r EDUCATION}
+
+edu %>%
+  detailed_entries(
+    with = inst,
+    what = degree,
+    why = detail,
+    when = glue::glue("{startYear} --> {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+# Awards
+
+```{r AWARDS}
+
+awards %>%
+  detailed_entries(
+    with = area,
+    what = accomplishment,
+    why = detail,
+    when = year,
+    where = where
+  )
+
+```
+
+
+# Publications
+
+```{r PUBLICATIONS}
+pubs %>% 
+  detailed_entries(
+    where = Journal,
+    with = Authors, 
+    what = Title,
+    when = Year
+  )
+```
+
+
+# Patent Applications
+```{r PATENT}
+patents %>% 
+  detailed_entries(
+    where = where,
+    with = Authors, 
+    what = Title,
+    why = detail
+  )
+```
+
+
+# References
+
+```{r REFERENCES}
+ref %>% 
+  detailed_entries(
+    where = Contact,
+    with = Name, 
+    what = Title
+  )
+```
+
